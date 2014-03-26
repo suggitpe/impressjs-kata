@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=1024"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <title>impress.js openspace</title>
+    <title>impress.js kata</title>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 
@@ -20,7 +20,7 @@
 
 <div id="impress">
 
-    <div id="title" class="step slide title" data-x="0" data-y="0" data-z="0">
+    <div id="title" class="step slide title" data-x="0" data-y="0" data-z="0" data-rotate="0" data-rotate-x="0" data-rotate-y="0">
         <h1>My first presentation</h1>
 
         <h2>Something witty</h2>
@@ -28,18 +28,41 @@
         <div class="footnote">Who are you &bull; @tweet-me</div>
     </div>
 
-    <div id="first" class="step" data-x="0" data-y="0" data-z="0">
-        <h1>Make this one slide from the bottom</h1>
-    </div>
-    <div id="second" class="step" data-x="0" data-y="0" data-z="0">
-        <h1>Then this one</h1>
-    </div>
-    <div id="third" class="step" data-x="0" data-y="0" data-z="0">
-        <h1>Then this</h1>
+    <div id="first" class="step" data-x="0" data-y="0" data-z="0" data-rotate="0" data-rotate-x="0" data-rotate-y="0">
+        <h1>Make a chain of three "statements" that slide in from the bottom</h1>
+        <div class="footnote">hint: increase data-y by 200 for each slide</div>
     </div>
 
-    <div id="fourth" class="step" data-x="0" data-y="0" data-z="0">
-        <div class="footnote">Create a new github.io repository</div>
+    <div id="second" class="step" data-x="0" data-y="0" data-z="0" data-rotate="0" data-rotate-x="0" data-rotate-y="0">
+        <h1>Now alter the last three slides with some depth</h1>
+        <div class="footnote">hint: decrease data-z by 300 for each slide</div>
+    </div>
+
+    <div id="third" class="step" data-x="0" data-y="0" data-z="0" data-rotate="0" data-rotate-x="0" data-rotate-y="0">
+        <h1>Now create a slide and roll it like a wheel</h1>
+        <p> ... you may find it easier to use a piece of paper to write down the planned route</p>
+        <div class="footnote">hint: the co-ordinates are the center of the slide.</div>
+    </div>
+
+    <div id="cube-lid" class="step" data-x="0" data-y="0" data-z="0" data-rotate="0" data-rotate-x="0" data-rotate-y="0">
+        <h1>Now build a 3D cube</h1>
+        <p>... you will definitely want to write this one down</p>
+        <pre><span class="highlight">
+
+
+
+            public void lidOfTheCube(){
+            }
+
+
+
+        </span></pre>
+        <div class="footnote">hint: remember all slides are relative to 0,0,0</div>
+    </div>
+
+    <div id="final-view" class="step" data-x="0" data-y="0" data-z="0" data-rotate="0" data-rotate-x="0" data-rotate-y="0">
+        <h1>Now using CSS, build a final slide where the words fly in</h1>
+        <div class="footnote">hint: have a look at the openpace slides</div>
     </div>
 
 </div>
